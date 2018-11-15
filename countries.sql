@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS `countries` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(8) NOT NULL,
-  `country` varchar(32) NOT NULL,
+  `country` varchar(56) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 --
